@@ -10,17 +10,10 @@ pip install -r requirements.txt
 
 # 環境変数を設定
 cp .env.example .env
-# .env ファイルを編集して実際の値を設定してください
 
 # サーバーを起動
 python run.py
 ```
-
-### ⚠️ セキュリティ重要事項
-
-**.env ファイルには秘密情報が含まれます。絶対に Git にコミットしないでください！**
-
-詳細は [SECURITY.md](../SECURITY.md) を参照してください。
 
 ### 環境変数（必須）
 - `S3_BUCKET_NAME`: 保存先バケット名（必須）
